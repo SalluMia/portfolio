@@ -79,6 +79,14 @@
 	 font-weight: bold;
 	
 }
+.skill .progress{
+	height: 5px;
+}
+.skill .progress-bar{
+    background-color: var(--link-color) !important;
+	padding: 0;
+
+}
 .skill .skill-progress{
 	color: var(--link-color) !important;
 }

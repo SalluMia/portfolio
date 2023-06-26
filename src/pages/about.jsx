@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-import LinearProgress from "@material-ui/core/LinearProgress"; // Import the linear progress component from Material-UI
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -42,52 +41,72 @@ const About = () => {
                 <div className="skills-container">
                   <div className="skill">
                     <span className="skill-title">Node.js</span>
-                    <LinearProgress
-                      variant="determinate"
-                      value={90}
-                      className="skill-progress"
-                    />
+                    <div className="progress">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        style={{ width: "90%" }}
+                        aria-valuenow={90}
+                        aria-valuemin={0}
+                        aria-valuemax={100}
+                      ></div>
+                    </div>
                   </div>
                   <div className="skill">
                     <span className="skill-title">Express.js</span>
-                    <LinearProgress
-                      variant="determinate"
-                      value={80}
-                      className="skill-progress"
-                    />
+                    <div className="progress">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        style={{ width: "80%" }}
+                        aria-valuenow={80}
+                        aria-valuemin={0}
+                        aria-valuemax={100}
+                      ></div>
+                    </div>
                   </div>
                   <div className="skill">
                     <span className="skill-title">React</span>
-                    <LinearProgress
-                      variant="determinate"
-                      value={85}
-                      className="skill-progress"
-                    />
+                    <div className="progress">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        style={{ width: "83%" }}
+                        aria-valuenow={83}
+                        aria-valuemin={0}
+                        aria-valuemax={100}
+                      ></div>
+                    </div>
                   </div>
+
                   <div className="skill">
                     <span className="skill-title">Mongo</span>
-                    <LinearProgress
-                      variant="determinate"
-                      value={75}
-                      className="skill-progress"
-                    />
+                    <div className="progress">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        style={{ width: "87%" }}
+                        aria-valuenow={87}
+                        aria-valuemin={0}
+                        aria-valuemax={100}
+                      ></div>
+                    </div>
                   </div>
-                  <div className="skill">
-                    <span className="skill-title">CSS</span>
-                    <LinearProgress
-                      variant="determinate"
-                      value={95}
-                      className="skill-progress"
-                    />
-                  </div>
+
                   <div className="skill">
                     <span className="skill-title">Material UI</span>
-                    <LinearProgress
-                      variant="determinate"
-                      value={70}
-                      className="skill-progress"
-                    />
+                    <div className="progress">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        style={{ width: "76%" }}
+                        aria-valuenow={76}
+                        aria-valuemin={0}
+                        aria-valuemax={100}
+                      ></div>
+                    </div>
                   </div>
+                  {/* Add the remaining skills with their progress bars */}
                 </div>
               </div>
 
