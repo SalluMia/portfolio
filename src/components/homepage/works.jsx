@@ -19,14 +19,14 @@ const Works = () => {
 								alt="facebook"
 								className="work-image"
 							/>
-							<div className="work-title">Facebook</div>
+							<div className="work-title">Alight Tech</div>
 							<div className="work-subtitle">
-								Software Engineer
+								As Team Leader: MERN
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">2023 - Present</div>
 						</div>
 
-						<div className="work">
+						{/* <div className="work">
 							<img
 								src="./twitter.png"
 								alt="twitter"
@@ -37,7 +37,7 @@ const Works = () => {
 								Software Engineer
 							</div>
 							<div className="work-duration">2019 - Present</div>
-						</div>
+						</div> */}
 					</div>
 				}
 			/>

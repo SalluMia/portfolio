@@ -68,7 +68,23 @@
 .about-socials-mobile {
 	display: none;
 }
-
+.skills-container{
+	 /* padding: 10px 50px; */
+	 margin-top: 40px;
+	 padding-right: 60px;
+}
+.skills-container .skill{
+	 width: 80%;
+	 margin-top: 20px;
+	 font-weight: bold;
+	
+}
+.skill .skill-progress{
+	color: var(--link-color) !important;
+}
+.MuiLinearProgress-barColorPrimary {
+    background-color: var(--link-color) !important;
+}
 @media (max-width: 1024px) {
 	.about-logo {
 		z-index: 100;
